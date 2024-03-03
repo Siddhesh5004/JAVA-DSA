@@ -9,5 +9,4 @@ is above 100 and otherwise prints You don't have a fever.
 Question 3 : Write a Java program to input week number(1-7) and print day of week name
 using switch case.
 
-Question 4 : Write a Java program that takes a year from the user and print whether that
-year is a leap year or not.
+
