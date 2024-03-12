@@ -1,7 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "3. loops",
         "2. ConditionalStatements",
         "1. Variables and Data types",
-        "3. loops"
-    ]
+        ""
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
