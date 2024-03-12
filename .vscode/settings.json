@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "4. Patterns",
         "3. loops",
         "2. ConditionalStatements",
         "1. Variables and Data types",
