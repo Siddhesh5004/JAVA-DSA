@@ -1,5 +1,7 @@
 {
     "java.project.sourcePaths": [
+
+        "5. Functions",
         "4. Patterns",
         "3. loops",
         "2. ConditionalStatements",
