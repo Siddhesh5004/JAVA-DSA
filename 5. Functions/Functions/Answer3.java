@@ -1,12 +1,12 @@
 package Functions;
-
 import java.util.Scanner;
 
 public class Answer3 {
     public static void main(String args[]) {
         System.out.println("Please Enter a number : ");
-        Scanner sc = new Scanner(System.in);
-        int palindrome = sc.nextInt();
+        Scanner scn = new Scanner(System.in);
+        scn.close();
+        int palindrome = scn.nextInt();
         if (isPalindrome(palindrome)) {
             System.out.println("Number : " + palindrome + " is a palindrome");
         } else {
@@ -29,5 +29,6 @@ public class Answer3 {
             return true;
         }
         return false;
+        
     }
 }

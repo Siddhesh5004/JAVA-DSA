@@ -6,6 +6,7 @@ public class Answer1 {
 
     public static void main(String[] args) {
         Scanner scn=new Scanner (System.in);
+        
         System.out.println("input no 1 : ");
 
         int x=scn.nextInt();
@@ -16,6 +17,7 @@ public class Answer1 {
 
         int z=scn.nextInt();
         System.out.println("Average of nos is:" +avgof3nos(x,y,z));
+        scn.close();
     }
     
     

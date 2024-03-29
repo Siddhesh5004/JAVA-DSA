@@ -16,6 +16,7 @@ public class Answer2 {
 
         } else {
             System.out.println("Number is odd ");
+            scn.close();
         }
     }
 
