@@ -1,4 +1,3 @@
-package 7. Sorting;
 
 public class Selectionsort {
     public static void selectionSortDescending(int arr[]) {
