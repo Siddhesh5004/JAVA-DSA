@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
-
+         
+        "11. Recursion",
         "10.Bitmanipulation",
         "9. Strings",
         "8. 2DArray",
