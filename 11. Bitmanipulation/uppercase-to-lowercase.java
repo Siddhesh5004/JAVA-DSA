@@ -5,6 +5,7 @@ public class Problem4 {
         // convert uppercase to lowercase
 
         for (char ch = 'A'; ch <= 'Z'; ch++) {
-            System.out.println((char)(ch | ' '));
+            System.out.println((char) (ch | ' '));
+        }
     }
-}}
+}

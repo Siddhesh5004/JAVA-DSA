@@ -27,6 +27,6 @@ public class Answer2 {
         } else {
             return false;
         }
-       
+
     }
 }

@@ -15,7 +15,8 @@ returnType name(type param1,type param2){
     return statement;
 }
 
-there are 2 types of parameters 
+there are 2 types of parameters :-
+
 1) formal parameters written in function definition (with out value)
 
 2) actual parameters /arguments written while calling (with value)
