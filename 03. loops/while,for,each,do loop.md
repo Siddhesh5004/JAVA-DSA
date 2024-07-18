@@ -36,3 +36,13 @@ public class dowhileloop{
 
     }
 }
+
+-------------------------------------------------
+
+public class forEach{
+    public static void main(Strings args[]){
+        for(int age : ages){       //for each loop is used to store and print values from ages array to age array.
+            System.out.println(age);
+        }
+    }
+}
