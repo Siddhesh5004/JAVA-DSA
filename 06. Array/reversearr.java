@@ -1,28 +1,31 @@
 import java.util.*;
 
+
 public class reversearr {
-    public static void reverse(int numbers[]) {
-        int first = 0, last = numbers.length - 1;
 
-        while (first < last) {
-            // swap
-            int temp = numbers[last];
-            numbers[last] = numbers[first];
-            numbers[first] = temp;
+    public static void reverse(int numbers[]){
+        int first =0;
+        int last =numbers.length-1;
 
-            first++;
+        while (first<last) {
+            //swap
+
+            int temp =numbers[last];
+            numbers[last]=numbers[first];
+            numbers[first]=temp;
+
+            first ++;
             last--;
         }
-
     }
-
     public static void main(String[] args) {
-        int numbers[] = { 2, 4, 6, 8, 10, 12 };
+        int numbers[]= {1,2,3,4};
+        reverse(numbers); //function calling 
 
-        reverse(numbers);
+        //printing array
         for (int i = 0; i < numbers.length; i++) {
             System.out.print(numbers[i] + " ");
         }
+        System.out.println();
     }
-
 }
