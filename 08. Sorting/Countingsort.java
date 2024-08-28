@@ -20,15 +20,12 @@ public class Countingsort {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 5, 3, 8, 1, 2 }; // Example array, you can use any array you want
-        System.out.println("Original array:");
-        printArray(arr); // Helper method to print array
+        int[] arr = { 5, 4, 2, 3, 1,10, 14,13,12,12 };
         countingSortDescending(arr);
         System.out.println("Sorted array in descending order:");
-        printArray(arr); // Helper method to print array
+        printArray(arr); // print array
     }
 
-    // Helper method to print array
     public static void printArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");

@@ -1,22 +1,20 @@
 public class StringPalindrome {
 
-    public static boolean isPalindrome(String s) {
-        s = s.toLowerCase().replaceAll("[^A-Za-z0-9]", "");
-        int i = 0;
-        int j = s.length() - 1;
-        while (i <= j) {
-            if (s.charAt(i) != s.charAt(j)) {
+    public static boolean isPalindrome(String str) {
+        
+        for (int i = 0; i < str.length()/2; i++) {
+            int n = str.length();
+            if (str.charAt(i) != str.charAt(n-1-i)) {
                 return false;
             }
-            i++;
-            j--;
         }
         return true;
     }
 
+
     public static void main(String[] args) {
-        String testString = "A man, a plan, a canal, Panama!";
-        boolean isPal = isPalindrome(testString);
-        System.out.println("Is '" + testString + "' a palindrome? " + isPal);
+        String str = "racecar";
+        System.out.println(isPalindrome(str));
+    
     }
 }
