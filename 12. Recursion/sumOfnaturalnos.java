@@ -11,7 +11,7 @@ public class sumOfnaturalnos {
 
     }
     public static void main(String[] args) {
-        
-        System.out.println(calcSum(10));
+        int n =5;
+        System.out.println(calcSum(n));
     }
 }

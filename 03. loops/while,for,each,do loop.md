@@ -16,7 +16,7 @@ public class whileloop{
 -------------------------------------------------
 public class forloop{
 
-    public static void main (Strings args[]){
+    public static void main (String args[]){
 
         for(int i=1; i<=5; i++) {
             System.out.println("*****");
@@ -27,7 +27,7 @@ public class forloop{
 -------------------------------------------------
 public class dowhileloop{
 
-    public static void main (Strings args[]){
+    public static void main (String args[]){
 
          do {
             System.out.println(i);
@@ -40,9 +40,10 @@ public class dowhileloop{
 -------------------------------------------------
 
 public class forEach{
-    public static void main(Strings args[]){
-        for(int age : ages){       //for each loop is used to store and print values from ages array to age array.
-            System.out.println(age);
+    public static void main(String args[]){
+        int ages[] = {1,2,3,4,5,6};
+        for(int age : ages){                     //for each loop is used to store and print values from ages array to age array.
+            System.out.print(" "+age+" ");
         }
     }
 }

@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class firstlettertoUppercase {
 
     public static String upperTolowercase (String str){
-        StringBuilder sb =new StringBuilder("");
+        StringBuilder sb = new StringBuilder("");
 
         char ch = Character.toUpperCase(str.charAt(0));
         sb.append(ch);

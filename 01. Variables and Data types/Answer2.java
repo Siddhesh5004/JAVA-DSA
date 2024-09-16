@@ -5,6 +5,7 @@ public class Answer2 {
 
         Scanner scn = new Scanner(System.in);
         int side = scn.nextInt();
+        System.out.println("Enter the side of the square:");
 
         int area = side * side;
 
