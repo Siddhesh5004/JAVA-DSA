@@ -13,4 +13,15 @@ for(int i=0;i<n;i++){
     }
 }
 
+//nested loop 2 
+
+if(int i=0;i<n;i++){
+    for(int j =0;j<i;j++){
+        //some constant work
+        //is done in this loop
+    }
+}
+
+
+
 
