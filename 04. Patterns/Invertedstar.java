@@ -4,7 +4,8 @@ public class Invertedstar {
 
         int n = 7;
         for (int line = 1; line <= n; line++) {
-            for (int star = 1; star <= n - line + 1; star++) {
+        // Main logic is n-line+1 for inverted star pattern 
+            for (int star = 1; star <= n - line + 1; star++) { 
                 System.out.print("*");
 
             }
