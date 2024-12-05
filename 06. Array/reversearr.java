@@ -1,21 +1,21 @@
-import java.util.*;
 
 
 public class reversearr {
 
     public static void reverse(int numbers[]){
-       int first = 0;
-       int last= numbers.length-1;
+       
+        int start = 0 ;
+        int end = numbers.length-1;
 
-       while(first<last){
+        while(start<end ){
 
-        //
-        int temp =numbers[last];
-        numbers[last]=numbers[first];
-        numbers[first] = temp;
-        first++;
-        last--;
-       }
+            int temp = numbers[start];
+            numbers[start] =numbers[end];
+            numbers[end] = temp;
+            start++;
+            end--;
+
+        }
 
     }
     public static void main(String[] args) {

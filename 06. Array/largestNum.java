@@ -1,25 +1,22 @@
 
-import java.util.*;
 public class largestNum {
     
-    public static int getLargest(int numbers[]){
-        int largest = Integer.MIN_VALUE; // -infinity
-        int smallest =Integer.MAX_VALUE; // + inginity
-        
-
-        for(int i=0;i<numbers.length;i++){ // BigO(n)
-            if(largest <numbers [i]){
-                largest =numbers[i];
+        public static void main(String[] args) {
+            int[] arr = {5, -1, 15, 23, 7};
+    
+            int largest = Integer.MIN_VALUE; // Start with the smallest possible int
+            int smallest = Integer.MAX_VALUE; // Start with the largest possible int
+    
+            for (int num : arr) {
+                if (num > largest) {
+                    largest = num; // Update largest
+                }
+                if (num < smallest) {
+                    smallest = num; // Update smallest
+                }
+            }
+    
+            System.out.println("Largest: " + largest);   // Output: 23
+            System.out.println("Smallest: " + smallest); // Output: -1
         }
-        if (smallest>numbers[i]) {
-            smallest = numbers[i];
-        }
-        }
-        System.out.println("smallest value is " + smallest);
-        return largest;
     }
-    public static void main(String[] args) {
-        int numbers[] = {1,2,3,4,20,10}  ;
-        System.out.println("largest value is "+getLargest(numbers));
-    }
-}
