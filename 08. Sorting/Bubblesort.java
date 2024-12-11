@@ -1,7 +1,7 @@
 public class Bubblesort {
     public static void bubbleSortDescending(int arr[]) {
         for (int turn = 0; turn < arr.length - 1; turn++) {
-            int swaps=0;
+            int swap =0;
             for (int j = 0; j < arr.length - 1 - turn; j++) {
         
                 if (arr[j] < arr[j + 1]) {
