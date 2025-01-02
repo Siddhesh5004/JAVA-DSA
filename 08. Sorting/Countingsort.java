@@ -20,7 +20,7 @@ public class Countingsort {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 5, 4, 2, 3, 1,10, 14,13,12,12 };
+        int[] arr = { 5, 4, 2, 3, 1, 10, 14, 13, 12, 12 };
         countingSortDescending(arr);
         System.out.println("Sorted array in descending order:");
         printArray(arr); // print array
